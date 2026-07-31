@@ -1,0 +1,8 @@
+*.md
+!README.md
+!README_CN.md
+!SKILL.md
+.DS_Store
+archives/
+*.log
+node_modules/
