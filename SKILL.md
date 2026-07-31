@@ -1,3 +1,9 @@
+---
+name: context-archive
+version: 1.1.0
+description: User-driven conversation archiving for AI agents. Archive by topic or time, free context, recall on demand.
+---
+
 # Context Archive
 
 > Version: 1.1.0
