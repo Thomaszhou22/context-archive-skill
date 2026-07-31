@@ -137,9 +137,25 @@ Users with a single agent session accumulate context over time. Long conversatio
 First-time setup when the skill is invoked for the first time:
 
 1. Check if `archives/` directory exists and contains any .md files
-2. If not, present a welcome message explaining the three core actions
+2. If empty (first-time user), present this welcome message:
+
+   > 欢迎使用 Context Archive。这个工具帮你主动管理对话上下文。
+   >
+   > **三个核心动作：**
+   > - **归档**：把一段对话压缩成摘要文件，释放上下文空间
+   > - **列出归档**：查看所有存档
+   > - **加载**：把某个存档恢复到当前对话
+   >
+   > **你可以自己决定归档什么、归档什么时间段的：**
+   > - 按主题：归档关于XX的讨论
+   > - 按时间：归档最近2小时的对话、归档7/21下午3点到5点
+   > - 按需求：归档今天的对话、归档最近的对话
+   >
+   > 归档时我会先生成摘要给你看，你确认没有遗漏再存。
+   > 已为你创建 archives/ 目录。
+
 3. Create `archives/` directory
-4. Proceed with the user's intended action
+4. Proceed with the user's intended action immediately
 
 ## Storage
 
