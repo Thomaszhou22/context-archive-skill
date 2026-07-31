@@ -31,30 +31,30 @@ Context Archive gives you three simple actions:
 ### Usage
 
 ```
-You: 归档最近关于激光投影的讨论
-AI: [generates summary] 以上是摘要。有没有遗漏的重要细节？
-You: 补充一下，IMU漂移的解决方案那部分要保留
-AI: 已更新。标题建议：2026-07-31-激光投影方案。确认？
-You: 确认
-AI: 已归档至 archives/2026-07-31-激光投影方案.md
+You: Archive the recent laser projection discussion
+AI: [generates summary] Here's the summary. Any important details missing?
+You: Keep the IMU drift solution part
+AI: Updated. Suggested title: 2026-07-31-Laser-Projection. Confirm?
+You: Confirm
+AI: Archived to archives/2026-07-31-Laser-Projection.md
 
 --- later ---
 
-You: 有哪些存档
-AI: 1. 2026-07-31-激光投影方案 → 激光追踪显示方案对比
-    2. 2026-07-15-GitHub统计 → 仓库星数和流量分析
+You: Show archives
+AI: 1. 2026-07-31-Laser-Projection → Laser tracking display comparison
+    2. 2026-07-15-GitHub-Stats → Repo stars and traffic analysis
 
-You: 加载第一个
-AI: 已加载归档：激光投影方案。关键信息已恢复。
+You: Load the first one
+AI: Loaded archive: Laser Projection. Key information restored.
 ```
 
 ### Archive Triggers
 
-- **Topic-based**: "归档关于XX的讨论"
-- **Relative time**: "归档最近2小时的对话"
-- **Absolute time**: "归档7/21下午3点到5点的对话"
-- **Entire day**: "归档今天的对话"
-- **Recent (default)**: "归档最近的对话"
+- **Topic-based**: "archive the discussion about X"
+- **Relative time**: "archive the last 2 hours"
+- **Absolute time**: "archive July 21, 3pm to 5pm"
+- **Entire day**: "archive today's conversation"
+- **Recent (default)**: "archive recent conversation"
 
 ### Detail Check
 
