@@ -2,6 +2,8 @@
 
 # Context Archive
 
+[![ClawHub](https://img.shields.io/badge/ClawHub-install-orange)](https://clawhub.ai/thomaszhou22/context-archive)
+
 ### Take control of your AI conversation context
 
 [English](#english) | [中文](./README_CN.md)
